@@ -1,0 +1,103 @@
+/* ---- Navbar ---- */
+#navbar {
+  background-color: #fff !important;
+}
+
+#link-navbar:hover {
+  color: #8ac640;
+}
+
+/* ---- Carousel ---- */
+div.carousel-caption {
+  top: 40%;
+}
+
+div.carousel.slide {
+  overflow: hidden;
+  z-index: -1;
+}
+
+#btn-carousel {
+  background-color: #8ac640;
+  border: none;
+  border-radius: 0;
+  padding: 0.5rem;
+}
+
+div.carousel-indicators button {
+  margin-top: -140px;
+}
+
+/* ---- Section about ---- */
+.box {
+  background-color: #fff;
+  width: 90%;
+  margin-left: 5%;
+  z-index: 2;
+  margin-top: -120px;
+  padding: 7rem;
+  border-radius: 10px;
+}
+
+.box p {
+  color: #525252;
+}
+
+/* ---- Section spotlight ---- */
+#btn-spotlight {
+  border-radius: 0;
+  padding: 1rem;
+  width: 10rem;
+  margin-bottom: 2rem;
+}
+
+#spotlight {
+  width: 80%;
+  margin-left: 10%;
+}
+
+/* ---- Section clients ---- */
+#btn-clients {
+  border-radius: 0;
+  padding: 1rem;
+  width: 18rem;
+  margin-top: 5rem;
+}
+
+.row {
+  margin: 0;
+}
+
+div.autoplay {
+  overflow: hidden;
+}
+
+/* ---- Footer ---- */
+#footer {
+  background-color: #8ac640 !important;
+  height: 400px;
+  padding: 4rem;
+}
+
+#footer h5,
+p,
+ul li {
+  color: #fff;
+}
+
+#footer .list-midias {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 1rem;
+  margin-left: -1.5rem;
+}
+
+#footer .list-contacts {
+  list-style: none;
+  margin-left: -2rem;
+}
+
+#footer .copyright {
+  margin-top: 3rem;
+}
